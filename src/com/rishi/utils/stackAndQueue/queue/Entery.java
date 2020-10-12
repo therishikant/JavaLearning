@@ -1,4 +1,4 @@
-package com.rishi.utils.stackAndQueue.queufile;
+package com.rishi.utils.stackAndQueue.queue;
 
 class Entery {
     public static void main(String[] args) {

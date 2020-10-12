@@ -1,4 +1,4 @@
-package com.rishi.utils.stackAndQueue.queufile;
+package com.rishi.utils.stackAndQueue.queue;
 
 import java.util.*;
 
