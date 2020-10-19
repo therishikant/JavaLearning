@@ -58,7 +58,6 @@ public class Heap {
             int temp = arr[0];
             arr[0] = arr[heapSize - 1];
             arr[heapSize - 1] = temp;
-
             heapSize --;
             heapify(0);
         }
