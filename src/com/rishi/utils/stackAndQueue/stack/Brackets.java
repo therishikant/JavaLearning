@@ -15,7 +15,7 @@ public class Brackets {
             if(character == openingBrackets[0] ||
             character == openingBrackets[1] ||
             character == openingBrackets[2]){
-                Stack.push(character);
+                stack.push(character);
             }
 
             else if(character == ']' || character == '}' || character == ')'){

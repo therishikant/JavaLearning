@@ -13,7 +13,5 @@ public class Driver {
         Merge merge = new Merge(arr);
         merge.sort();
         merge.printArray();
-
-
     }
 }
