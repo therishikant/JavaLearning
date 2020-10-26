@@ -7,6 +7,7 @@ public class Merge extends Sorter {
         this.arr = arr;
     }
 
+    @Override
     public void sort() {
         this.arr = mergeSort(0, arr.length - 1);
     }

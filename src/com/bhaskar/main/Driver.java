@@ -2,6 +2,7 @@ package com.bhaskar.main;
 
 import com.bhaskar.utils.Heap;
 import com.bhaskar.utils.Merge;
+import com.bhaskar.utils.Quick;
 
 public class Driver {
     public static void main(String[] args) {
@@ -10,8 +11,12 @@ public class Driver {
 //        heap.sort();
 //        heap.printArray();
 
-        Merge merge = new Merge(arr);
-        merge.sort();
-        merge.printArray();
+//        Merge merge = new Merge(arr);
+//        merge.sort();
+//        merge.printArray();
+
+        Quick quick = new Quick(arr);
+        quick.sort();
+        quick.printArray();
     }
 }
