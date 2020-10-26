@@ -1,4 +1,4 @@
-package com.rishi.utils.heap;
+package com.rishi.utils.sort.heap;
 
 public class Heap {
     int[] arr;

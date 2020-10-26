@@ -1,4 +1,4 @@
-package com.rishi.utils.sort.insertionSort;
+package com.rishi.utils.sort.insertion;
 
 public class InsertionSort {
     int[] arr;
