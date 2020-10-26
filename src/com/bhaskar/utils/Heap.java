@@ -1,10 +1,11 @@
 package com.bhaskar.utils;
 
-public class Heap {
+public class Heap extends Sorter {
     private int[] arr;
     private int heapSize;
 
     public Heap(int[] arr) {
+        super(arr);
         this.arr = arr;
         heapSize = arr.length;
         buildMaxHeap();
@@ -45,12 +46,6 @@ public class Heap {
         arr[maxIndex] = arr[i];
         arr[i] = temp;
         heapify(maxIndex);
-    }
-
-    public void printHeap() {
-        for (int i = 0; i < arr.length; i ++) {
-            System.out.println(arr[i]);
-        }
     }
 
     public void sort() {
