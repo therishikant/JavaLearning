@@ -1,6 +1,6 @@
 package com.rishi.utils.sort.merge;
 
-import com.bhaskar.utils.Sorter;
+import com.rishi.utils.sort.Sorter;
 
 public class Merge extends Sorter {
 

@@ -1,13 +1,14 @@
 package com.rishi.main;
 
+import com.bhaskar.utils.Quick;
 import com.rishi.utils.sort.bubble.Bubble;
 import com.rishi.utils.sort.insertion.InsertionSort;
 import com.rishi.utils.sort.merge.Merge;
 
-class driver{
+class Driver {
     public static void main(String[] args) {
 
-        int[] arr = {5,8,7,6,99,145,634,51,3,1,2};
+        int[] arr = {9,5,7,2,4,3,10,11};
 //        InsertionSort insertionSort = new InsertionSort(arr);
 //
 //        insertionSort.sort(arr);
@@ -17,9 +18,12 @@ class driver{
 //        merge.sort();
 //        merge.printArray();
 
-        Bubble bubble = new Bubble(arr);
-        bubble.sort();
-        bubble.printArray();
+//        Bubble bubble = new Bubble(arr);
+//        bubble.sort();
+//        bubble.printArray();
 
+        Quick quick = new Quick(arr);
+        quick.sort();
+        quick.printArray();
     }
 }
