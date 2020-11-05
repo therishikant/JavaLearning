@@ -14,9 +14,9 @@ class Driver {
 //        insertionSort.sort(arr);
 //        insertionSort.print();
 
-//        Merge merge = new Merge(arr);
-//        merge.sort();
-//        merge.printArray();
+        Merge merge = new Merge(arr);
+        merge.sort();
+        merge.printArray();
 
 //        Bubble bubble = new Bubble(arr);
 //        bubble.sort();
