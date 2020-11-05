@@ -13,13 +13,13 @@ class driver{
 //        insertionSort.sort(arr);
 //        insertionSort.print();
 
-//        Merge merge = new Merge(arr);
-//        merge.sort();
-//        merge.printArray();
+        Merge merge = new Merge(arr);
+        merge.sort();
+        merge.printArray();
 
-        Bubble bubble = new Bubble(arr);
-        bubble.sort();
-        bubble.printArray();
+//        Bubble bubble = new Bubble(arr);
+//        bubble.sort();
+//        bubble.printArray();
 
     }
 }
