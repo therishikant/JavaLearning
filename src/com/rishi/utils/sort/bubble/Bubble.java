@@ -7,6 +7,7 @@ public class Bubble extends Sorter {
     public Bubble(int[] arr) {
         super(arr);
         this.arr = arr;
+        sort();
     }
 
     @Override
@@ -21,5 +22,6 @@ public class Bubble extends Sorter {
             }
         }
     }
+
 
 }

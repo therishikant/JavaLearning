@@ -16,5 +16,8 @@ public abstract class Sorter {
 
     public abstract void sort();
 
+    public int[] getSortedArry(){
+        return arr;
+    }
 
 }

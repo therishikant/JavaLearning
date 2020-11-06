@@ -1,29 +1,20 @@
 package com.rishi.main;
 
-import com.bhaskar.utils.Quick;
-import com.rishi.utils.sort.bubble.Bubble;
-import com.rishi.utils.sort.insertion.InsertionSort;
-import com.rishi.utils.sort.merge.Merge;
+import com.rishi.utils.tree.binary.BinaryLinkedList;
 
 class Driver {
     public static void main(String[] args) {
 
-        int[] arr = {9,5,7,2,4,3,10,11};
-//        InsertionSort insertionSort = new InsertionSort(arr);
-//
-//        insertionSort.sort(arr);
-//        insertionSort.print();
+        int[] arr = {5,9,5,7,2,4,3,10,11};
+//        Linear linear = new Linear(arr);
+//        linear.finder(4);
+//        linear.finder(0);
 
-        Merge merge = new Merge(arr);
-        merge.sort();
-        merge.printArray();
+//        Binary binary = new Binary(arr);
+//        binary.finder(7);
 
-//        Bubble bubble = new Bubble(arr);
-//        bubble.sort();
-//        bubble.printArray();
+        BinaryLinkedList binaryTree = new BinaryLinkedList(arr);
+        binaryTree.checkElement(99);
 
-        Quick quick = new Quick(arr);
-        quick.sort();
-        quick.printArray();
     }
 }
