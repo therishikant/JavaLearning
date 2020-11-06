@@ -1,5 +1,6 @@
 package com.rishi.main;
 
+import com.rishi.utils.sort.selection.Selection;
 import com.rishi.utils.tree.binary.BinaryLinkedList;
 
 class Driver {
@@ -13,8 +14,12 @@ class Driver {
 //        Binary binary = new Binary(arr);
 //        binary.finder(7);
 
-        BinaryLinkedList binaryTree = new BinaryLinkedList(arr);
-        binaryTree.checkElement(99);
+//        BinaryLinkedList binaryTree = new BinaryLinkedList(arr);
+//        binaryTree.checkElement(99);
+
+        Selection selection = new Selection(arr);
+        selection.sort();
+        selection.printArray();
 
     }
 }
