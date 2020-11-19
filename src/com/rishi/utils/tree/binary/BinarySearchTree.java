@@ -1,11 +1,13 @@
 package com.rishi.utils.tree.binary;
 
-public class BinaryLinkedList {
+import com.rishi.utils.tree.Node;
+
+public class BinarySearchTree {
 
     private Node firstNode = null;
     private boolean flag = false;
 
-    public BinaryLinkedList(int[] arr) {
+    public BinarySearchTree(int[] arr) {
         setBinaryTree(arr);
     }
 
@@ -26,14 +28,14 @@ public class BinaryLinkedList {
                 Node rightNode = new Node(data) ;
                 node.setRightNode(rightNode);
             }else {
-                setBinaryNode(node.rightNode, data);
+                setBinaryNode(node.getRightNode(), data);
             }
         }else {
             if(node.getLeftNode() == null){
                 Node leftNode = new Node(data);
                 node.setLeftNode(leftNode);
             }else {
-                setBinaryNode(node.leftNode, data);
+                setBinaryNode(node.getLeftNode(), data);
             }
         }
     }
@@ -52,10 +54,10 @@ public class BinaryLinkedList {
             flag = true;
             return;
         }
-        if(node.getData() < element && node.rightNode != null){
-            elementFinder(node.rightNode, element);
-        }else if(node.getData() > element && node.leftNode != null){
-            elementFinder(node.leftNode, element);
+        if(node.getData() < element && node.getRightNode() != null){
+            elementFinder(node.getRightNode(), element);
+        }else if(node.getData() > element && node.getLeftNode() != null){
+            elementFinder(node.getLeftNode(), element);
         }
     }
 

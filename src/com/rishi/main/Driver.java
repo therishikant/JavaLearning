@@ -1,7 +1,6 @@
 package com.rishi.main;
 
 import com.rishi.utils.sort.selection.Selection;
-import com.rishi.utils.tree.binary.BinaryLinkedList;
 
 class Driver {
     public static void main(String[] args) {

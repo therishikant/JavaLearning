@@ -1,7 +1,7 @@
-package com.rishi.utils.tree.binary;
+package com.rishi.utils.tree;
 
 public class Node {
-    int data;
+    int data,height;
     Node leftNode = null;
     Node rightNode = null;
 
@@ -13,6 +13,12 @@ public class Node {
 
     public int getData(){
         return data;
+    }
+
+    public int getHeight(){return height;}
+
+    public void setHeight(int height){
+        this.height = height;
     }
 
     public Node getLeftNode() {
